@@ -217,8 +217,23 @@ body {
     textarea {
         box-sizing: border-box;
         width: 100%;
-
     }
+
+    .hover_effect {
+        height:15%;
+        width: auto; 
+      }
+       
+    .hover_effect:hover {
+        height: 20%;
+        width: auto;
+        max-width: 100%;
+        position: fixed;
+        top: 0;
+        margin-top: 250px;
+        margin-right: 100px;
+    
+      }
       
 }
 
@@ -322,6 +337,22 @@ body {
         margin: 40px;
         overflow: hidden;
     }
+
+    .hover_effect {
+        height:25%;
+        width: auto; 
+      }
+       
+    .hover_effect:hover {
+        height: 50%;
+        width: auto;
+        max-width: 300%;
+        position: fixed;
+        top: 0;
+        margin-top: 250px;
+        margin-right: 60px;
+    
+      }
 }
 
 .navbar {
@@ -370,22 +401,6 @@ body {
 .div4 { grid-area: auto; }
 .div5 { grid-area: auto; }
 .div6 { grid-area: auto; }
-
-.hover_effect {
-    height:25%;
-    width: auto; 
-  }
-   
-.hover_effect:hover {
-    height: 50%;
-    width: auto;
-    max-width: 300%;
-    position: fixed;
-    top: 0;
-    margin-top: 250px;
-    margin-right: 60px;
-
-  }
 
 /* Contact's items */
 
